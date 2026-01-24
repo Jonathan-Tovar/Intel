@@ -1,6 +1,6 @@
-let saldo = 100;
+let saldo = 1000;
 
-function cajeroSwitch(opcion,monto){
+function cajero(opcion,monto){
 switch (opcion){
     case "consultar":
         console.log(saldo);
